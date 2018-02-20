@@ -20,7 +20,7 @@ public class CountingFor {
     }
 
     System.out.println("\nFinally, three times counting backwards.");
-    for (; n > 0; n -= 1) {
+    for (;n > 0; n -= 1) {
       System.out.println(n + ". " + message);
     }
   }
